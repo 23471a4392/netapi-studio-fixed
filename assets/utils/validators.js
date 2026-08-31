@@ -23,3 +23,4 @@ export function validateWebhook(p) {
   if (!isUrl(p.url)) e.url = "Invalid webhook URL";
   return e;
 }
+// webhook url check note
