@@ -24,3 +24,4 @@ describe('NetAPI validators', () => {
     expect(validateWebhook({ name: 'H', url: 'https://x.local/h' })).toEqual({});
   });
 });
+// coverage note
